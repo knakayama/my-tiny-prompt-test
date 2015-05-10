@@ -49,6 +49,9 @@
 
 # TODO: get exit status
 
+# not display prompt when completing command
+setopt always_last_prompt
+
 # enable color prompt
 autoload -U colors && colors
 # prompt theme
