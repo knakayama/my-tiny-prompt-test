@@ -1,4 +1,4 @@
--get-git-current-branch {
+-get-git-current-branch() {
   local branch_name git_status color gitdir action
 
   if [[ "$(git rev-parse --is-inside-work-tree 2>/dev/null)" == "true" ]]; then
