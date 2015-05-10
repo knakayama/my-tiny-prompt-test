@@ -73,4 +73,4 @@ setopt prompt_subst
 # %~ -> current directory(home directory is ~)
 # %(1,#,$)
 # %f%b same as %{${reset_color}%}?
-PROMPT='%n %F{blue}%~%f%b$(-get-git-current-branch)$(-get-git-remote-commit-log)'$'\n''%(!,#,$) '
+PROMPT='%n %F{blue}%~%f%b$(-get-git-current-branch)$(-get-git-remote-commit-log)' retval=$?$'\n''%(!,#,$) '
